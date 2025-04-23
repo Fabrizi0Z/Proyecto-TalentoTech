@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Aromas Tostados</title>
+</head>
+<body>
+    <header class="header">
+        <h1>AROMAS TOSTADOS</h1>
+    </header>
+
+    <nav>
+        
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Carta</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-contacto">
+            <form action="https://formspree.io/f/xkgjyegr" method="POST">
+                <label for="nombre">
+                    Nombre: 
+                </label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label for="email">
+                    Correo electrónico: 
+                </label>
+                <input type="email" name="email" id="email" required><br>
+                <label for="motivo">
+                    Motivo del contacto: 
+                    <input type="checkbox" name="Consulta" id=""> Consulta
+                    <input type="checkbox" name="Reserva" id=""> Reserva
+                </label><br>
+                
+                <label for="mensaje">
+                    <textarea name="mensaje" id="mensaje"  placeholder="Escribe tu mensaje aquí..." required> </textarea><br>
+                </label>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+
+
+    </main>
+</body>
+</html>

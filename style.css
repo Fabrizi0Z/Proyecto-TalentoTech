@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1{
+    font-size: 50px;
+    background-image: url(./img/background.jfif);
+    padding: 50px;;
+}
+.header{
+    text-align: center;
+    color: white;
+    
+}
+
+nav ul{
+    margin-top: -10px;
+    list-style: none; /*CON ESTO LE SACCO LOS ESTILOS A LAS LISTAS*/
+    display: flex; /* CON ESTO LOGRO QUE LOS ELEMENTOS DEL MENU SE PONGAN UNO AL LADO DEL OTRO*/
+    /* justify-content: space-between; CON ESTO LOGRO QUE LOS ELEMENTOS DEL MENU SE DISTANCIEN UNOS DE OTROS. ESTO ME SIRVE, PERO AHORA LO VOY A HACER DE OTRA FORMA  */ 
+    
+}
+
+nav ul li{
+    background-color: bisque;
+    flex: auto;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: rgb(165, 99, 42);
+    color: white;
+}
+
+
+
+textarea{
+    resize: none;
+    height: 200px;
+    width: 50%;
+}
+
+.main-contacto{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #EDD8BC;
+    border-radius: 10px;
+    border: solid black;
+    box-shadow: 0 20px 15px rgb(94, 53, 20);
+    justify-content: center;
+}
