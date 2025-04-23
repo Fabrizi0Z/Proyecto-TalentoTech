@@ -7,12 +7,11 @@
     <title>Aromas Tostados</title>
 </head>
 <body>
-    <header class="header">
-        <h1>AROMAS TOSTADOS</h1>
-    </header>
-    <main>
-        <nav>
-        
+    <header>
+        <div>
+            <img class="img-nav" src="./img/img-logo-proyecto.png" alt="Branding logo">
+        </div>
+        <nav class="nav">
             <ul>
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Productos</a></li>
@@ -20,8 +19,54 @@
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
+    </header>
+    <main>
+        <div class="main-txt">
+            <h1>AROMAS TOSTADOS</h1>
+            <h2>CAFE DE ESPECIALIDAD</h2>
+
+        </div>
+        <p>  Bienvenido a Aromas Tostados, donde te ofrecemos la mejor selección de café de especialidad para deleitar tu paladar.
+        </p><br>
+        <p>Por eso, te invitamos a recorrer brevemente, la historia del café</p>
+        <section class="section-video">
+            <video 
+            controls
+            width="50%"
+            muted
+        >
+            
+            <source
+                src="./video/Historia del café _ Origen y expansión por el mundo.mp4"
+                type="video/mp4"
+            > 
+            <track
+                src="video/spanish-subtitile.vtt"
+                kind="subtitles"
+                srclang="es"
+                label="Español"
+                default
+                >
+                
+                
+                <!--Esto lo hacemos para poder vincular el video que tenemos guardado en nuestro ordenador
+            Usamor la etiqueta src de esta forma para poder linkear el video.
+            type/xxx va a depender de la extension que tenga el archivo que queramos vincular-->
+        </video>
+
+        </section>
+
 
 
     </main>
+
+    
+    <footer class="footer">
+        <!--ENLACES: Son importantes porque nos van a permitir dirigirnos a otras paginas desde un click en nuestra pagina-->
+        Si te intersa mi trabajo, puedes contactarme en estas redes sociales
+        <!--_blank lo que hace es que el enlace se abra en una pestaña nueva-->
+        <a href="https://www.linkedin.com/in/fabrizio-marina/" target="_blank"> <img src="./img/linkedin.png" alt="linkedin"></a>
+        
+    </footer>
 </body>
 </html>

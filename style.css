@@ -1,24 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
-
-h1{
-    font-size: 50px;
-    background-image: url(./img/background.jfif);
-    padding: 50px;;
+header{
+    background-image: url(./img/692_900+\ Café\ Ilustraciones\ de\ Stock\,\ gráficos\ vectoriales\ libres\ de\ derechos\ y\ clip\ art\ -\ iStock.png);
+    background-size: contain;
 }
-.header{
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    padding: 5px 10%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.main-txt{
+    font-size: 24px;
+    color: black;
     text-align: center;
+    background-image: url(./img/background.png);
     color: white;
-    
+    padding: 15px;
 }
+
+.img-nav{
+    height: 80px;
+    width: auto;
+    padding: 8.5px;
+    transition: 0.3s;
+}
+
+.img-nav{
+    cursor: pointer;
+}
+
+.img-nav:hover{
+    transform: scale(1.2);
+
+}
+
 
 nav ul{
-    margin-top: -10px;
     list-style: none; /*CON ESTO LE SACCO LOS ESTILOS A LAS LISTAS*/
     display: flex; /* CON ESTO LOGRO QUE LOS ELEMENTOS DEL MENU SE PONGAN UNO AL LADO DEL OTRO*/
     /* justify-content: space-between; CON ESTO LOGRO QUE LOS ELEMENTOS DEL MENU SE DISTANCIEN UNOS DE OTROS. ESTO ME SIRVE, PERO AHORA LO VOY A HACER DE OTRA FORMA  */ 
@@ -26,14 +57,13 @@ nav ul{
 }
 
 nav ul li{
-    background-color: bisque;
-    flex: auto;
     padding: 10px;
     color: black;
     text-decoration: none;
     font-size: 20px;
-    border: 1px solid black;
     text-align: center;
+    font-weight: bold;
+
 }
 
 
@@ -43,9 +73,7 @@ nav ul li a {
 }
 nav ul li:hover{
     background-color: rgb(165, 99, 42);
-    color: white;
 }
-
 
 
 textarea{
@@ -54,6 +82,14 @@ textarea{
     width: 50%;
 }
 
+
+section{
+    padding: 20px;
+    
+
+}
+
+
 .main-contacto{
     padding: 20px;
     margin-top: 20px;
@@ -61,5 +97,49 @@ textarea{
     border-radius: 10px;
     border: solid black;
     box-shadow: 0 20px 15px rgb(94, 53, 20);
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(165, 99, 42);
+    color: white;
+    border: solid transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: rgb(60, 38, 18);
+    transform: scale(1.2);
+    
+}
+
+p{
+    display: flex;
+    font-size: 20px;
     justify-content: center;
+    padding-top: 10px;
+}
+
+.section-video{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+
+.footer{
+    background-color: bisque;
+    padding: 10px;
+    display: flex;
+    flex: auto;
+    height: 80px;
+    justify-content: center;
+     align-items: center;
+}
+
+.footer a{
+    margin-left: 5px;
 }

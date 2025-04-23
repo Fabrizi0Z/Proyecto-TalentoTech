@@ -7,20 +7,24 @@
     <title>Aromas Tostados</title>
 </head>
 <body>
-    <header class="header">
-        <h1>AROMAS TOSTADOS</h1>
+    <header>
+        <div>
+            <img class="img-nav" src="./img/img-logo-proyecto.png" alt="Branding logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="">Carta</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="">Productos</a></li>
-            <li><a href="">Carta</a></li>
-            <li><a href="">Contacto</a></li>
-        </ul>
-    </nav>
     <main>
+
+    </main>
+    <section>
+
         <div class="main-contacto">
             <form action="https://formspree.io/f/xkgjyegr" method="POST">
                 <label for="nombre">
@@ -41,12 +45,17 @@
                     <textarea name="mensaje" id="mensaje"  placeholder="Escribe tu mensaje aquí..." required> </textarea><br>
                 </label>
                 
-                <button type="submit">Enviar</button>
+                <button class="btn" type="submit">Enviar</button>
             </form>
         </div>
-    
+    </section>
 
-
-    </main>
+    <footer class="footer">
+        <!--ENLACES: Son importantes porque nos van a permitir dirigirnos a otras paginas desde un click en nuestra pagina-->
+            Si te intersa mi trabajo, puedes contactarme en estas redes sociales  
+            <!--_blank lo que hace es que el enlace se abra en una pestaña nueva-->
+            <a href="https://www.linkedin.com/in/fabrizio-marina/" target="_blank"> <img src="./img/linkedin.png" alt="linkedin"></a>
+                    
+    </footer>    
 </body>
 </html>
