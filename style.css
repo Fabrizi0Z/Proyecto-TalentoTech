@@ -19,6 +19,7 @@ header{
     padding: 5px 10%;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 
 
 }
@@ -51,7 +52,9 @@ header{
 
 nav ul{
     list-style: none; /*CON ESTO LE SACCO LOS ESTILOS A LAS LISTAS*/
-    display: flex; /* CON ESTO LOGRO QUE LOS ELEMENTOS DEL MENU SE PONGAN UNO AL LADO DEL OTRO*/
+    display: flex;
+    
+     /* CON ESTO LOGRO QUE LOS ELEMENTOS DEL MENU SE PONGAN UNO AL LADO DEL OTRO*/
     /* justify-content: space-between; CON ESTO LOGRO QUE LOS ELEMENTOS DEL MENU SE DISTANCIEN UNOS DE OTROS. ESTO ME SIRVE, PERO AHORA LO VOY A HACER DE OTRA FORMA  */ 
     
 }
@@ -79,14 +82,14 @@ nav ul li:hover{
 textarea{
     resize: none;
     height: 200px;
-    width: 50%;
+    width: 100%;
 }
 
 
 section{
     padding: 20px;
     justify-items: center; /*CON ESTO LO QUE HICE FUE CENTRAR EL CUADRO DONDE SE ACOMODA EL SECTION*/
-    
+    height: 524px;
 
 }
 
@@ -100,6 +103,7 @@ section{
     border-radius: 10px;
     border: solid black;
     box-shadow: 0 10px 10px 5px rgb(94, 53, 20);
+    
 }
 
 .btn{
