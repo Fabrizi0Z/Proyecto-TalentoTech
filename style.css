@@ -85,7 +85,7 @@ textarea{
 
 section{
     padding: 20px;
-    justify-items: center;
+    justify-items: center; /*CON ESTO LO QUE HICE FUE CENTRAR EL CUADRO DONDE SE ACOMODA EL SECTION*/
     
 
 }
@@ -96,7 +96,7 @@ section{
     width: 50%;
     padding: 20px;
     margin-top: 20px;
-    background-color: #EDD8BC;
+    background-color: RGB(247, 210, 166);
     border-radius: 10px;
     border: solid black;
     box-shadow: 0 10px 10px 5px rgb(94, 53, 20);
@@ -134,7 +134,7 @@ p{
 
 
 .footer{
-    background-color: bisque;
+    background-color: RGB(247, 210, 166);
     padding: 10px;
     display: flex;
     flex: auto;
