@@ -1,0 +1,4 @@
+El presente trabajo forma para de la preentrega del proyecto final del curso Telnto Tech - Full Stack - JS promocionado por el Gobierno de la ciudad de Buenos Aires.
+El mismo consta de una pagina web de una cafetería ficticia, estructurada con HTML y estilada y animada con CSS.
+En la misma, el usuario puede conocer una breve historia del café, a través de un video linkeado con una etiqueta iframe, ademas de poder navegar por sus diferentes pestañas, en las cuales puede conocer los productos de la cafeteria, su lista precios, hacer consultas y reservas.
+Queda pendiente la utilización de JavaScript para lo correspondiente al carrito de compras.
