@@ -85,18 +85,21 @@ textarea{
 
 section{
     padding: 20px;
+    justify-items: center;
     
 
 }
 
 
 .main-contacto{
+    justify-content: center;
+    width: 50%;
     padding: 20px;
     margin-top: 20px;
     background-color: #EDD8BC;
     border-radius: 10px;
     border: solid black;
-    box-shadow: 0 20px 15px rgb(94, 53, 20);
+    box-shadow: 0 10px 10px 5px rgb(94, 53, 20);
 }
 
 .btn{
