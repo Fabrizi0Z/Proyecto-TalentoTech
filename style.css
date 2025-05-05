@@ -108,6 +108,7 @@ section{
 
 .btn{
     padding: 5px;
+    margin-top: 5px;
     border-radius: 10px;
     background-color: rgb(165, 99, 42);
     color: white;
