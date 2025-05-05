@@ -87,18 +87,19 @@ textarea{
 
 
 section{
+    width: 100%;
     padding: 20px;
     justify-items: center; /*CON ESTO LO QUE HICE FUE CENTRAR EL CUADRO DONDE SE ACOMODA EL SECTION*/
-    height: 524px;
 
 }
 
 
 .main-contacto{
     justify-content: center;
-    width: 70%;
+    width: 50%;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: RGB(247, 210, 166);
     border-radius: 10px;
     border: solid black;
