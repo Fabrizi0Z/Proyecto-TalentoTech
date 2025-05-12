@@ -140,6 +140,14 @@ p{
     
 }
 
+.h3{
+    text-align: center;
+}
+
+.iframe-map{
+    justify-content: center;
+    display: flex;
+}
 
 .footer{
     background-color: RGB(247, 210, 166);
