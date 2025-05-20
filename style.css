@@ -156,10 +156,7 @@ p{
   }
 }
 
-.card{
-    display: flex;
 
-}
 
 .card-content{
     display: grid;
