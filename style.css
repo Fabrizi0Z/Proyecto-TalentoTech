@@ -150,48 +150,54 @@ p{
     display: flex;
 }
 
-@media (max-width: 800px) {
-  .card-content {
-    grid-template-columns: repeat(2, 1fr); /* 2 imágenes por fila */
-  }
+.section-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    place-items: center;
+    padding: 1rem;
+
 }
 
-
-
-.card-content{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    gap: 10px;
-    border: solid rgb(165, 99, 42);
-    border-radius: 8px;
+.div-productos{
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 5px rgb(165, 99, 42);
     padding: 10px;
-    box-sizing: border-box;
-    max-width: 100%;
-    overflow-x: hidden;
     
 }
 
-.card-content img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-    object-fit: cover;
+.img-productos{
+    max-width: 200px;
 }
 
-.btn-wrapper {
-    grid-column: 1 / -1;
+h3{
+    text-align: center;
+}
+
+.div-btn{
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-card {
-    padding: 10px 15px;
-    margin-top: 10px;
+.btn-productos{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
     border-radius: 10px;
     background-color: rgb(165, 99, 42);
     color: white;
-    border: none;
+    border: solid transparent;
     cursor: pointer;
+}
+
+.btn-productos:hover{
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: rgb(60, 38, 18);
+    transform: scale(1.2);
+    
 }
 
 .footer{
@@ -201,7 +207,7 @@ p{
     flex: auto;
     height: 80px;
     justify-content: center;
-     align-items: center;
+    align-items: center;
 }
 
 .footer a{
