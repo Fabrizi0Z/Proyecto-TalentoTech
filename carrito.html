@@ -17,7 +17,8 @@
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./productos.html">Productos</a></li>  <!--El # hace que se anule el refresh de la pagina-->
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="#">Carrito</a></li>
+                <li><a href="#">Carrito</a><span id="contador-carrito"> 0</span>
+</li>
             </ul>
         </nav>
     </header>
@@ -26,8 +27,13 @@
             <h1>AROMAS TOSTADOS</h1>
             <h2>CAFE DE ESPECIALIDAD</h2>
         </div>
+          <h1 style="text-align:center">🛒 Carrito</h1>
+
+            <div id="carrito-contenido"></div>
+
+            <button class="btn-vaciar" onclick="vaciarCarrito()">Vaciar carrito</button>
             <h3 class="h3">
-                :( Por el momento, nuestro carrito está en construcción. Pero podes pasar por nuesto local y disfrutar nuestros productos.
+                También podes pasar por nuesto local y disfrutar nuestros productos.
             </h3>
             <section class="iframe-map">
                 <iframe
@@ -45,11 +51,10 @@
 
     
     <footer class="footer">
-        <!--ENLACES: Son importantes porque nos van a permitir dirigirnos a otras paginas desde un click en nuestra pagina-->
         Si te intersa mi trabajo, puedes contactarme en estas redes sociales
-        <!--_blank lo que hace es que el enlace se abra en una pestaña nueva-->
         <a href="https://www.linkedin.com/in/fabrizio-marina/" target="_blank"> <img src="./img/linkedin.png" alt="linkedin"></a>
         
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
