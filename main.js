@@ -2,67 +2,81 @@ const productos = [
     {
         id: "01",
         imagen: "img/coffee-logo.png",
-        alt: "Cafe latte",
-        nombre: "Latte",
-        precio: 4000
+        alt: "Foto de un envase de crema",
+        nombre: "Aceite de semillas de uva",
+        precio: 5000
     },
     {
         id: "02",
         imagen: "img/coffee-logo.png",
-        nombre: "Latte macchiatto",
-        precio: 4000
+        nombre: "Crema hidratante",
+        precio: 7000
     },
     {
         id: "03",
         imagen: "img/coffee-logo.png",
-        nombre: "Expresso",
-        precio: 3500
-    },
-        {
-        id: "04",
-        imagen: "img/coffee-logo.png",
-        nombre: "Capuccino",
+        nombre: "Exfoliante de semillas de uva",
         precio: 4000
     },
-        {
+    {
+        id: "04",
+        imagen: "img/coffee-logo.png",
+        alt: "Foto de un envase de crema",
+        nombre: "Aceite de semillas de uva",
+        precio: 5000
+    },
+    {
         id: "05",
         imagen: "img/coffee-logo.png",
-        nombre: "Iced coffee",
-        precio: 4500
+        nombre: "Crema hidratante",
+        precio: 7000
     },
-        {
+    {
         id: "06",
         imagen: "img/coffee-logo.png",
-        nombre: "Te chai",
-        precio: 3500
-    },
-        {
+        nombre: "Exfoliante de semillas de uva",
+        precio: 4000
+    },    
+    {
         id: "07",
         imagen: "img/coffee-logo.png",
-        nombre: "Tostado de campo",
-        precio: 4500
-    },    
-        {
+        nombre: "Exfoliante de semillas de uva",
+        precio: 4000
+    },
+    {
         id: "08",
         imagen: "img/coffee-logo.png",
-        nombre: "Croissants",
-        precio: 900
+        nombre: "Crema hidratante",
+        precio: 7000
     },
-        {
+    {
         id: "09",
         imagen: "img/coffee-logo.png",
-        nombre: "Alfajor de maicena",
-        precio: 1500
-    },
-        {
-        id: "03",
+        nombre: "Exfoliante de semillas de uva",
+        precio: 4000
+    },    
+    {
+        id: "10",
         imagen: "img/coffee-logo.png",
-        nombre: "Chocotorta",
-        precio: 4500
-    },
-
+        nombre: "Exfoliante de semillas de uva",
+        precio: 4000
+    },           
 ];
 
+// Función de comparación para ordenar productos por ID de forma ascendente.
+// Para usar con sort
+function compararProductosPorIdAscendente(a, b) {
+    if(a.id < b.id) {
+        return 1;
+    }
+    if(a.id > b.id) {
+        return -1;
+    }
+    return 0;
+}
+
+// Ordenar los productos por ID de forma descendente
+productos.sort(compararProductosPorIdAscendente);
 
 // Array para almacenar los productos en el carrito
 let carrito = [];
