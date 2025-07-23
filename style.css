@@ -214,7 +214,8 @@ h3{
 .footer a{
     margin-left: 5px;
 }
-/* Carrito de compras */
+/*  Carrito de compras  */
+/*
 .carritoCompras {
     margin: 2rem auto 0;
     border: 1px solid rgb(60, 38, 18);
@@ -258,7 +259,7 @@ h3{
     border: solid transparent;
     cursor: pointer;
 }
-/* 
+
 .lista-carrito button {
     display: flex;
     justify-content: center;
@@ -269,7 +270,7 @@ h3{
     color: white;
     border: solid transparent;
     cursor: pointer;
-} */
+}
 
 .lista-carrito button:hover{
     transition: background-color 0.3s, transform 0.3s;
@@ -306,4 +307,108 @@ h3{
     color: white;
     border: solid transparent;
     cursor: pointer;
+}*/
+
+/* Carrito de compras ***********************************/
+.carritoCompras {
+    margin: 2rem auto 0;
+    border: 1px solid rgb(60, 38, 18);
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 500px;
+    min-width: 400px;
+    background-color: RGB(247, 210, 166);
+    color: rgb(60, 38, 18);
+}
+
+.carritoCompras h2 {
+    color:rgb(60, 38, 18);
+    margin-top: 0;
+}
+
+.lista-carrito li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+
+.lista-carrito button {
+    /* display: flex; */
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(165, 99, 42);
+    color: white;
+    border: solid transparent;
+    cursor: pointer;
+}
+
+.lista-carrito button:hover{
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: rgb(60, 38, 18);
+    transform: scale(1.2);
+    
+}
+
+.total-carrito,
+.cantidad-carrito {
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+/* Productos **********************/
+.productos {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.producto {
+    width: 16rem;
+    height: 26rem;
+    border: solid rgb(60, 38, 18);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 5px rgb(165, 99, 42);
+}
+
+.producto-contenido {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.producto img {
+    border-radius: 10px 10px 0 0;
+    height: 15rem;
+    background-color: white;
+}
+
+.btn-comprar {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(165, 99, 42);
+    color: white;
+    border: solid transparent;
+    cursor: pointer;
+}
+.btn-comprar:hover{
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: rgb(60, 38, 18);
+    transform: scale(1.2);
+    
+}
+
+h4, span{
+    text-align: center;
 }

@@ -1,65 +1,73 @@
 const productos = [
     {
-        id: "01",
+        id:"lt",
         imagen: "img/coffee-logo.png",
-        alt: "Foto de un envase de crema",
-        nombre: "Aceite de semillas de uva",
+        alt: "Cafe Latte",
+        nombre: "Latte",
+        precio: 4500,
+    },
+    {
+        id: "ltm",
+        imagen: "img/coffee-logo.png",
+        alt: "Latte macchiatto",
+        nombre: "Latte Macchiatto",
         precio: 5000
     },
     {
-        id: "02",
+        id: "sp",
         imagen: "img/coffee-logo.png",
-        nombre: "Crema hidratante",
-        precio: 7000
-    },
-    {
-        id: "03",
-        imagen: "img/coffee-logo.png",
-        nombre: "Exfoliante de semillas de uva",
+        alt:"Espresso",
+        nombre: "Espresso",
         precio: 4000
     },
     {
-        id: "04",
+        id: "cpc",
         imagen: "img/coffee-logo.png",
-        alt: "Foto de un envase de crema",
-        nombre: "Aceite de semillas de uva",
-        precio: 5000
+        alt: "Capuccino",
+        nombre: "Capuccino",
+        precio: 5500
     },
     {
-        id: "05",
+        id: "ch",
         imagen: "img/coffee-logo.png",
-        nombre: "Crema hidratante",
-        precio: 7000
+        alt:"Te chai",
+        nombre: "Te chai",
+        precio: 4500
     },
     {
-        id: "06",
+        id: "icd",
         imagen: "img/coffee-logo.png",
-        nombre: "Exfoliante de semillas de uva",
-        precio: 4000
+        alt:"Iced coffee",
+        nombre: "Iced coffee",
+        precio: 5500
     },    
     {
-        id: "07",
+        id: "crs",
         imagen: "img/coffee-logo.png",
-        nombre: "Exfoliante de semillas de uva",
-        precio: 4000
+        alt:"Croissants",
+        nombre: "Croissants",
+        precio: 1000
     },
     {
-        id: "08",
+        id: "mcn",
         imagen: "img/coffee-logo.png",
-        nombre: "Crema hidratante",
-        precio: 7000
+        alt:"Alfajor de maicena",
+        nombre: "Alfajor de maicena",
+        precio: 1700
     },
     {
-        id: "09",
+        id: "tst",
+        alt: "Tostado de campo",
         imagen: "img/coffee-logo.png",
-        nombre: "Exfoliante de semillas de uva",
-        precio: 4000
+        nombre: "Tostado de campo",
+        precio: 5500
     },    
     {
-        id: "10",
+        id: "cht",
         imagen: "img/coffee-logo.png",
-        nombre: "Exfoliante de semillas de uva",
-        precio: 4000
+        alt:"Chocotorta",
+        nombre: "Chocotorta",
+        precio: 5500
     },           
 ];
 
